@@ -1,7 +1,7 @@
 import { FACT_START, FACT_SUCCESS, FACT_FAIL } from "../actions/factsActions";
 
 export const initialState = {
-  loading: false,
+  loading: true,
   errors: "ERROR! Please check your address",
   fact: "",
 };

@@ -10,6 +10,7 @@ function App(props) {
   },[])
   return (
     <div className="App">
+      <h1>CAT FACTS!</h1>
      <CatFacts />
     </div>
   );
